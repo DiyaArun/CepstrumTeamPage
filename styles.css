@@ -1,0 +1,81 @@
+body
+{
+    font-family: Helvetica;
+    background-color: black;
+}
+.navtabs ul li
+{
+    white-space: nowrap;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    background-color:whitesmoke;
+    margin: auto;
+    padding: 0.5%;
+}
+.navtabs li a
+{
+    text-decoration: none;
+}
+.navtabs li a div span
+{
+    text-decoration: none;
+    font-size: 100%;
+    text-align: center;    
+    color: black;
+}
+.navtabs :hover
+{
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+.heading h1
+{
+    text-align: center;
+    color: whitesmoke;
+}
+.listing ul
+{
+    background-color:whitesmoke;
+    margin: auto;
+    padding: 5%;
+}
+.listing li
+{
+    display: inline-block;
+    list-style-type: none;
+    width: 160;
+    margin: 7px;
+    padding: 3px;
+    position: relative;
+    background-color: lightgrey;
+    border: black;
+
+}
+.listing li div img
+{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    padding: 10px 2px;
+}
+.listing li div
+{
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+}
+.listing li div h6
+{
+    text-align: center;
+    color: black;
+    margin: 2px;
+    padding: 1px;
+}
+.listing li div h6
+{
+    text-align: center;
+    color: black;
+    margin: 2px;
+    padding: 1px;
+}
